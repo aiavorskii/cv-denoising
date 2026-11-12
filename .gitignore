@@ -1,0 +1,14 @@
+*.ipynb_*
+*.onnx
+*.dat
+*.mp4
+.idea
+.DS_Store
+__pycache__/
+
+# Обученные модели и логи (большие файлы)
+models/
+logs/
+
+# Материалы курса
+*.pdf
