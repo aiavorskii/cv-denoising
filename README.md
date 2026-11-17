@@ -28,7 +28,7 @@ Model based on the convolutional autoencoder from official Keras example ([Convo
 You need Python 3.11–3.13.
 
 ```bash
-git clone <repo-url> cv-project
+git clone https://github.com/aiavorskii/cv-denoising cv-project
 cd cv-project
 python3 -m venv .venv
 source .venv/bin/activate
