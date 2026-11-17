@@ -80,14 +80,14 @@ The notebook saves the model weights to `models/` and the images to `results/`.
 | Gaussian | 24.71 / 0.812 | 21.71 / 0.689 |
 | Median | 23.74 / 0.758 | 25.98 / 0.865 |
 | Bilateral | 26.00 / 0.848 | 17.65 / 0.499 |
-| Autoencoder (Keras example) | 24.88 / 0.810 | 24.05 / 0.777 |
+| Autoencoder (Keras example) | 24.84 / 0.810 | 24.05 / 0.777 |
 | **Autoencoder with skip connections** | **28.07 / 0.906** | **34.25 / 0.980** |
 
 Kodak photos 768×512 (the models were trained only on 32×32):
 
 | Noise | Best filter | Autoencoder | Skip Autoencoder |
 |-------|-------------|-------------|------------------|
-| Gaussian | Bilateral 27.80 / 0.680 | 27.35 / 0.744 | **30.21 / 0.822** |
+| Gaussian | Bilateral 27.80 / 0.680 | 27.04 / 0.740 | **30.21 / 0.822** |
 | Salt & Pepper | Median 29.92 / 0.875 | 26.68 / 0.723 | **34.82 / 0.946** |
 
 ![Kodak, Gaussian noise](results/kodak_gaussian.png)
